@@ -15,3 +15,9 @@ Can visit [http://ktime.leping.fun/](http://ktime.leping.fun/) or [https://lecep
 The required configuration items can be set individually or together.
 
 For example: `http://ktime.leping.fun/?fs=10&r=90&l=en`.
+
+### Screen always on
+
+Do not turn off the screen settings.
+
+In the system search box, enter `~ds`.
