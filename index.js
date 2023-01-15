@@ -48,13 +48,18 @@ function formatDate(date, fmt = "yyyy-MM-dd") {
   return fmt;
 }
 function render() {
-  const date = new Date();
+  const time = new Date();
+  const len = time.getTime();
+  const offset = time.getTimezoneOffset() * 60000; //本地时间与GMT时间差值
+  const utcTime = len + offset; //格林尼治时间
+  const date = new Date(utcTime + 3600000 * 8);
+
   const dateText = `${formatDate(date, "yyyy.M.d")} ${
     urlQuery.l == "en"
       ? ["SUN", "MON", "TUES", "WED", "THUR", "FRI", "SAT"][date.getDay()]
       : "星期" + ["日", "一", "二", "三", "四", "五", "六"][date.getDay()]
   }`;
-  const timeText = `${date.getHours()}:${date.getMinutes()}}`;
+  const timeText = `${date.getHours()}:${date.getMinutes()}`;
 
   if (domDate.innerHTML != dateText) domDate.innerHTML = dateText;
   if (domTime.innerHTML != timeText) domTime.innerHTML = timeText;
