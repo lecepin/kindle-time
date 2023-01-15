@@ -54,7 +54,7 @@ function render() {
       ? ["SUN", "MON", "TUES", "WED", "THUR", "FRI", "SAT"][date.getDay()]
       : "星期" + ["日", "一", "二", "三", "四", "五", "六"][date.getDay()]
   }`;
-  const timeText = formatDate(date, "h:m");
+  const timeText = `${date.getHours()}:${date.getMinutes()}}`;
 
   if (domDate.innerHTML != dateText) domDate.innerHTML = dateText;
   if (domTime.innerHTML != timeText) domTime.innerHTML = timeText;
