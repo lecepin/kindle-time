@@ -18,18 +18,17 @@
     }
 
     body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      height: 100vh;
+      width: 100%;
       text-align: center;
     }
 
-    .app {}
+    .app {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform-origin: 0 0;
+    }
 
     .time {
       font-family: TIME;
@@ -46,12 +45,12 @@
 
 <body>
   <div class="app">
-    <div class="date"> </div>
-    <div class="time"> </div>
+    <div class="date"></div>
+    <div class="time"></div>
     <div class="cn-date"></div>
   </div>
-  <script src="./lunisolar@1.4.1.js"></script>
-  <script src="./index.js"></script>
+
+  <script src="./index.min.js"></script>
 </body>
 
 </html>
