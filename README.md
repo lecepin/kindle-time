@@ -16,7 +16,10 @@ Can visit [https://lecepin.github.io/kindle-time/](https://lecepin.github.io/kin
 
 The required configuration items can be set individually or together.
 
-For example: `http://ktime.leping.fun/?fs=10&r=90&l=en`.
+For example: `http://ktime.leping.fun/?fs=10&r=90`:
+
+![image](https://user-images.githubusercontent.com/11046969/212535887-d9fa8ec4-6795-455f-ae18-5f104dadf47c.png)
+
 
 ### Screen always on
 
