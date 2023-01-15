@@ -2,7 +2,9 @@
 
 Use the clock on your Kindle.
 
-![image](https://user-images.githubusercontent.com/11046969/212528349-12a1b2ce-25d4-43af-af22-f2643946696f.png)
+![image](https://user-images.githubusercontent.com/11046969/212535636-9501936f-584c-4ce9-9a9a-ea7d0ac4e1c4.png)
+
+
 
 Can visit [https://lecepin.github.io/kindle-time/](https://lecepin.github.io/kindle-time/) or [http://ktime.leping.fun/](http://ktime.leping.fun/).
 
